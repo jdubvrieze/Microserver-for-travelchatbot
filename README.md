@@ -13,8 +13,6 @@ For this Project partner and I are both programming in python and I am hosting t
 Example:
 
 context = zmq.Context()
-
-#  Socket to talk to server
 socket = context.socket(zmq.REQ)
 socket.connect("tcp://localhost:5555")
 
@@ -35,4 +33,6 @@ messageback = socket.recv_json()
 (this makes messageback the correct type of object)
 
 4. You can then do what you want with that list of city and state. 
+5. Disconnect from Server
+
 
