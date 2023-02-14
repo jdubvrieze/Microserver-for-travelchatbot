@@ -21,16 +21,16 @@ To use the microserver you need to send a string containing "1" to the microserv
 erro message. If you try to send something besides a string it will error on the client side.
 
 Example:
-socket.send_string("1") - Valid
-socket.send_string("kk") -Invalid string will get a Error Message back
-socket.send("kk") - Will error on client side since did not send correct type of data
+socket.send_string("1") - Valid;
+socket.send_string("kk") -Invalid string will get a Error Message back;
+socket.send("kk") - Will error on client side since did not send correct type of data;
 
 3. To recieve data by recieving a json file back from the microserver.
 The microserver will send a json file back that contains a list of the city and state as the two entries in the list and using socket recieve json function of receieving json in the language of choose.  This method will reconstruct the object as the type it was before being seterizlied into a json. 
 
 Example:
-messageback = socket.recv_json()
-(this makes messageback the correct type of object)
+messageback = socket.recv_json();
+(this makes messageback the correct type of object);
 
 4. You can then do what you want with that list of city and state. 
 5. Disconnect from Server
