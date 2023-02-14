@@ -33,4 +33,5 @@ messageback = socket.recv_json()\
 
 5. Disconnect from Server
 
+![Untitled Workspace](https://user-images.githubusercontent.com/97073281/218671461-6e3084c2-d27f-427f-bdd1-88c814aea940.png)
 
